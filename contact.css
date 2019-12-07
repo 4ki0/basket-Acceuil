@@ -1,0 +1,44 @@
+/*
+Header
+*/
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: #333333;
+    position: fixed;
+    z-index: 999;
+}
+
+.header .header-logo {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-left: 30px;
+    font-size: 70;
+}
+
+
+.header .header-menu {
+    float: right;
+    margin-right: 30px;
+}
+
+.header .header-menu a {
+    margin-right: 15px;
+    color: #ffffff;
+}
+
+.header .header-menu a:hover{
+    color: #1abc9c;
+}
+
+.footer {
+    background-color: #F5F5F5;
+}
+.footer .heading-site {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
